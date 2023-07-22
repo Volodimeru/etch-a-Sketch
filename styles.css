@@ -3,3 +3,18 @@
     padding: 0px;
     box-sizing: border-box;
 }
+html, body {
+height: 100%;
+}
+.container {
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(16, 1fr) ;
+    grid-template-rows: repeat(auto, 1fr) ;
+}
+/* .container > div:hover {
+    background-color: aqua;
+} */
+.container .onmo {
+    background-color: aqua;
+}
