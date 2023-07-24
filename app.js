@@ -16,4 +16,8 @@ for(i=0; i<divsQuantity*divsQuantity; i++) {
     div.classList.add('addedClass');
     // If uncomment line bellow color will be changed with styling method
     // div.style.backgroundColor = "red"; 
+    rgb  = Math.floor(Math.random() * 256);
+    rgb2 = Math.floor(Math.random() * 256);
+    rgb3 = Math.floor(Math.random() * 256);
+    div.style.backgroundColor = `rgb(${rgb}, ${rgb2}, ${rgb3})`
 }));}}})
